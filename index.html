@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAiNTS</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">SAiNTS</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#shop" class="navbar__links" id="shop-page">Shop</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about-us" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#sign-up" class="button" id="signup">Contact us</a>
+                </li>
+            </ul>
+
+            <div class="icons">
+                <i class="fas fa-shopping-basket" id="search-btn"></i>
+                <i class="fas fa-search" id="search-btn"></i>
+                <i class="fas fa-user" id="login-btn"></i>
+            </div>
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="search here...">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Navbar Ends -->
+
+    <!-- login form -->
+
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have and account? <a href="#">register now</a></p>
+        </form>
+    </div>
+
+    <!-- login form end -->
+
+    <!-- Home section -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3> <span>SAiNTS</span>, not Sinners</h3>
+            <a href="#" class="btn-men">Shop Men</a>
+            <a href="#" class="btn-wmen">Shop Women</a>
+        </div>
+        <div class="controls">
+            <span class="vid-btn active" data-src="./vids/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="./vids/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="./vids/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="./vids/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="./vids/vid-5.mp4"></span>
+        </div>
+        <div class="video-container">
+            <video src="./vids/vid-1.mp4" id="video-slider" loop controls autoplay muted></video>
+        </div>
+    </section>
+
+    <!-- Home section end -->
+
+    <!-- Shop section  -->
+
+    <section class="shop" id="shop">
+        <h1>Shop</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="./images/pic-1.jpg" alt="">
+                <div class="content">
+                    <h3>Anti Social Social Club Hoodie</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ab.</p>
+                    <div class="price"> £100.00 <span>£160.00</span> </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/pic-2.jpg" alt="">
+                <div class="content">
+                    <h3>Thrasher T</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ab.</p>
+                    <div class="price"> £40.00 <span>£70.00</span> </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/pic-3.jpg" alt="">
+                <div class="content">
+                    <h3>"Woof" OFF White Puppy Jacket</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ab.</p>
+                    <div class="price"> £60.00 <span>£100.00</span> </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/pic-4.jpg" alt="">
+                <div class="content">
+                    <h3>Stussy AF1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ab.</p>
+                    <div class="price"> £120.00 <span>£150.00</span> </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/pic-5.jpg" alt="">
+                <div class="content">
+                    <h3>Saints Jacket</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ab.</p>
+                    <div class="price"> £100.00 <span>£120.00</span> </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/pic-6.jpg" alt="">
+                <div class="content">
+                    <h3>Puppy Saints Beani</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ab.</p>
+                    <div class="price"> £30.00 <span>£50.00</span> </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/pic-7.jpg" alt="">
+                <div class="content">
+                    <h3>OFF White AF1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ab.</p>
+                    <div class="price"> £300.00 <span>£380.00</span> </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/pic-8.jpg" alt="">
+                <div class="content">
+                    <h3>Saints Animal Print Jacket</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ab.</p>
+                    <div class="price"> £60.00 <span>£80.00</span> </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/pic-9.jpg" alt="">
+                <div class="content">
+                    <h3>Saints/Nike Junior tracksuit</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ab.</p>
+                    <div class="price"> £100.00 <span>£120.00</span> </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/pic-9.jpg" alt="">
+                <div class="content">
+                    <h3>Saints/Nike Junior tracksuit</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ab.</p>
+                    <div class="price"> £100.00 <span>£120.00</span> </div>
+                    <a href="" class="btn">Add to Cart</a>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- Shop section ends -->
+
+    <!-- About us -->
+
+    <section class="about-us" id="about-us">
+
+        <h1 class="heading">About Us</h1>
+
+        <p class="about-text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, non corporis
+            explicabo voluptas expedita distinctio quam veniam cumque quod temporibus. A omnis aliquid assumenda, quos
+            laudantium voluptatibus numquam, architecto ratione labore, ad neque ipsa magnam eaque est tempore
+            laboriosam. Earum.</p>
+
+
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-truck"></i>
+                <h3>Next Day Delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sequi ducimus hic animi commodi,
+                    fuga praesentium minus vero ratione recusandae?</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-money-bill-alt"></i>
+                <h3>Secure Payments</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sequi ducimus hic animi commodi,
+                    fuga
+                    praesentium minus vero ratione recusandae?</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-paper-plane"></i>
+                <h3>No Brexit Charges</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sequi ducimus hic animi commodi,
+                    fuga
+                    praesentium minus vero ratione recusandae?</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-route"></i>
+                <h3>Fair Trade Policy</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sequi ducimus hic animi commodi,
+                    fuga
+                    praesentium minus vero ratione recusandae?</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-recycle"></i>
+                <h3>Recycled Materials</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sequi ducimus hic animi commodi,
+                    fuga
+                    praesentium minus vero ratione recusandae?</p>
+            </div>
+
+            <div class="box">
+                <i class="fab fa-cc-apple-pay"></i>
+                <h3>Apple Pay Accepted</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sequi ducimus hic animi commodi,
+                    fuga
+                    praesentium minus vero ratione recusandae?</p>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- about us end -->
+
+    <!-- Contact us -->
+
+    <section class="contact">
+
+        <h1 class="heading">Contact Us</h1>
+
+        <div class="row">
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="text" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <!-- contact us end -->
+
+    <!-- footer start -->
+
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About Us</h2>
+                    <a href="/sign__up">How it works</a> <a href="/">Testimonials</a>
+                    <a href="/">Careers</a> <a href="/">Terms of Service</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Contact Us</h2>
+                    <a href="/">Contact</a> <a href="/">Support</a>
+                    <a href="/">Destinations</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Videos</h2>
+                    <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+                    <a href="/">Agency</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Social Media</h2>
+                    <a href="/">Instagram</a> <a href="/">Facebook</a>
+                    <a href="/">Youtube</a> <a href="/">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">SAINTS</a>
+                </div>
+                <p class="website__rights">© SAINTS 2020. All rights reserved</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-instagram"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-youtube"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-linkedin"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+    <!-- footer end -->
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
